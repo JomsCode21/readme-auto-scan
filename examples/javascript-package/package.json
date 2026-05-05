@@ -1,0 +1,14 @@
+{
+  "name": "example-js-package",
+  "version": "1.0.0",
+  "description": "Example JavaScript package for README Auto Scan.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --test",
+    "lint": "eslint ."
+  },
+  "keywords": ["example", "javascript"],
+  "author": "README Auto Scan",
+  "license": "MIT"
+}

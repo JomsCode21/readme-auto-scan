@@ -1,0 +1,19 @@
+{
+  "name": "example-ts-package",
+  "version": "1.0.0",
+  "description": "Example TypeScript package for README Auto Scan.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "test": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "keywords": ["example", "typescript"],
+  "author": "README Auto Scan",
+  "license": "MIT"
+}

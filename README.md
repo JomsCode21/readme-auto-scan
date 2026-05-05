@@ -308,6 +308,28 @@ The tool generates these sections based on your project:
 12. **License** — From package.json
 13. **Contributing** — Standard contribution message
 
+## Generated README Examples
+
+README Auto Scan includes example generated README files for all supported project types. Use these examples to preview the README style before running the CLI in your own project.
+
+| Project Type | Example |
+| ------------ | ------- |
+| JavaScript Package | [`examples/javascript-package/README.generated.md`](./examples/javascript-package/README.generated.md) |
+| TypeScript Package | [`examples/typescript-package/README.generated.md`](./examples/typescript-package/README.generated.md) |
+| Python pip Project | [`examples/python-pip/README.generated.md`](./examples/python-pip/README.generated.md) |
+| Python Poetry Project | [`examples/python-poetry/README.generated.md`](./examples/python-poetry/README.generated.md) |
+| Python Pipenv Project | [`examples/python-pipenv/README.generated.md`](./examples/python-pipenv/README.generated.md) |
+| Python Django Project | [`examples/python-django/README.generated.md`](./examples/python-django/README.generated.md) |
+
+Preview an example locally:
+
+```bash
+cd examples/python-pip
+npx readme-autoscan --dry-run
+```
+
+See [`examples/README.md`](./examples/README.md) for more details.
+
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
